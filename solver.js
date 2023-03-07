@@ -14,3 +14,5 @@ const solveQuadratic = (a, b, c) => {
         console.log("There are no roots.")
     }
 }
+
+export { solveQuadratic };
