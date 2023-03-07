@@ -2,6 +2,7 @@
 
 const solveQuadratic = (a, b, c) => {
     const d = Math.pow(b, 2) - 4 * a * c;
+    console.log(`(${a})x^2 + (${b})x + (${c}) = 0`)
 
     if (d > 0) {
         const x1 = (-b + Math.sqrt(d)) / (2 * a);

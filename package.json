@@ -1,0 +1,21 @@
+{
+  "name": "methodoligies-lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bLuDd1/methodoligies-lab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bLuDd1/methodoligies-lab1/issues"
+  },
+  "homepage": "https://github.com/bLuDd1/methodoligies-lab1#readme"
+}

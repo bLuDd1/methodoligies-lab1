@@ -21,10 +21,10 @@ const interactiveMode = () => {
         if (params.length < questions.length) {
             const parsedData = parseFloat(data.toString());
             if (params.length === 0 && parsedData === 0) {
-                output.write("Error. A cannot be zero.");
+                output.write("Error. A cannot be zero.\n");
                 output.write(questions[0]);
             } else if (!checkValue(data)) {
-                output.write(`Error. Expected a real number, got ${data.toString()} instead.`);
+                output.write(`Error. Expected a real number, got ${data.toString()} instead.\n`);
                 output.write(questions[params.length]);
             } else {
                 params.push(parsedData);
