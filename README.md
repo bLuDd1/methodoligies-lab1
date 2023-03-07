@@ -41,7 +41,7 @@ node index.js
 ```
 
 6. To run program in non-interactive mode
-(you need have a .txt file with three arguments, for example: 1 1 1)
+(you need to have a .txt file with three arguments, for example: 1 1 1, or check examples in files in repository)
 
 ```
 node index.js path-to-file
