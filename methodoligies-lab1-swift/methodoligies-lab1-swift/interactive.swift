@@ -11,13 +11,17 @@ func interactiveInput() {
     
     while i <= questions.count - 1 {
         print(questions[i], terminator: "")
-        if let input = readLine(), let num = Int(input) {
-            if questions[i] == questions[0] && num == 0 {
-                print("a can not be 0")
-                i = 0
+        
+        if let input = readLine() {
+            if let num = Int(input) {
+                if questions[i] == questions[0] && num == 0 {
+                    print("Error. 'a' cannot be 0. Please try again.")
+                } else {
+                    params.append(num)
+                    i += 1
+                }
             } else {
-                params.append(num)
-                i += 1
+                print("Error. Expected a valid real number, got \(input) instead")
             }
         }
     }
